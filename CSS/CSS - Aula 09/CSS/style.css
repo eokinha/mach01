@@ -1,0 +1,59 @@
+
+.barra_vermelha_titulo, .barra_vermelha_titulo,  {
+    background-color: pink;
+}
+
+.barra_vermelha_titulo {
+    background-color: red;
+    width: 56px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.form_text_input label {
+    display: grid;
+    gap: 8px;
+}
+
+.form_radio_input {
+    margin-top: 32px;
+}
+
+.radio_group {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+}
+
+.radio_group label {
+    margin-right: 32px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 28px max-content;
+    gap: 8;
+}
+
+.radio_group label span {
+    align-self: center;
+}
+
+button {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 100;
+}
+
+input[type="radio"]:checked {
+    background-color: red;
+    box-shadow: inset;
+}
+
+a {
+    color: red;
+}
+
+input:disabled {
+    background-color: var(--color-disable);
+    cursor: not-allowed;
+}
+
+input

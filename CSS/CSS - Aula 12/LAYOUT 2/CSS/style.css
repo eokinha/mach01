@@ -1,0 +1,17 @@
+.coluna {
+    column-width: 300px;
+    column-gap: 32px;
+    column-rule: dotted 3px lightblue;
+    column-count: 3;
+}
+
+h1.titulo {
+    column-span: all;
+    background-color: beige;
+}
+
+.separado {
+    text-align: center;
+    display: block;
+
+}

@@ -1,0 +1,11 @@
+@import url('./grid.css');
+
+.f1 {
+    background-color: red;
+}
+.f2 {
+    background-color: blue;
+}
+.f3 {
+    background-color: yellow;
+}

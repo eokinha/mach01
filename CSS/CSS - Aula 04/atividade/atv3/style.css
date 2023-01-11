@@ -1,0 +1,14 @@
+.profile {
+    border-radius: 100px;
+    border: 1px dotted yellow;
+}
+
+.profile div {
+    border-radius: 50px;
+    border: 1px solid blue;
+}
+
+.profile div div {
+    border-radius: 10px;
+    border: 1px double green;
+}

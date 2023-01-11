@@ -1,0 +1,13 @@
+.principal {
+    border: 5px solid blue;
+    margin: 20px;
+    /* margin: 1em; */
+}
+
+.principal div {
+    height: 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+
+}

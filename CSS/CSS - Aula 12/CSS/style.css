@@ -1,0 +1,33 @@
+/* .grid {
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: repeat(5, fr);
+} */
+
+.colunas {
+    column-width: 300px;
+    column-gap: 32px;
+    column-rule: dotted 4px red;
+    border: solid 2px;
+    padding: 0 32px 32px 32px;
+}
+
+h1.titulo {
+    column-span: all;
+    background-color: aqua;
+}
+
+.separado {
+    display: block;
+    column-span: all;
+    background-color: bisque;
+    padding: 8px;
+    margin: 8px;
+}
+
+/* .coluna_filha {
+    background-color: aliceblue;
+    padding:  32px;
+    width: 300px;
+    column-count: 2;
+} */

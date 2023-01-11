@@ -1,0 +1,29 @@
+
+
+/* Pseudo-class utiliza :
+    Exemplos - 
+    div:nth-child()
+    div:first-child
+     */
+
+/* :nth-child() seleciona elementos com base em suas posições em um grupo de elementos irmãos. */
+div :nth-child(4) {
+    color: red;
+}
+
+/* Pseudo-elemento utiliza ::
+    Exp - li::marker {}
+    input::placeholder
+*/
+
+p::before {
+    content: "Ola";
+}
+
+h1:hover {
+    color: blue
+}
+
+input::placeholder {
+    color: red;
+}

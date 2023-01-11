@@ -1,0 +1,22 @@
+.flex_container {
+    border: solid 1px;
+    padding: 8px;
+    gap: 8px;
+
+    display: flex;
+    /* Flex wrap quebra o elemento caso ultrapasse o tamanho da tela */
+    flex-wrap: wrap;
+
+    /* flex-direction: column; */
+
+    /* display: grid;
+    grid-template-columns: 100px 100px; */
+
+}
+
+.flex_item {
+    height: 100px;
+    width: 200px;
+    background-color: gray;
+    border: solid 1px;
+}
