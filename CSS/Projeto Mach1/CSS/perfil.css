@@ -1,0 +1,86 @@
+.profile {
+    height: 650px;
+    position: relative;
+}
+
+.background_photo_perfil {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.background_photo_perfil img {
+    object-fit: cover;
+}
+
+
+.photo_profile {
+    /* position: absolute;
+    top: 50px;
+    left: 134px; */
+    border: solid white 2px;
+    height: 128px;
+    width: 128px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.photo_profile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.followers { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-self: center;
+    margin: auto;
+    gap: 20px;
+    width: 70%;
+}
+
+.follow {
+    background-color: grey;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.follow p {
+    margin: 0;
+    color: wheat;
+
+}
+
+.seguidores_perfil {
+    width: 146px;
+    height: 69px;
+    background-color: #F9F9F9;
+}
+
+.postagens_perfil {
+    width: 146px;
+    height: 69px;
+    background-color: #F9F9F9;
+}
+
+.lista_profile {
+    display: grid;
+    gap: 5px;
+
+}
+
+.lista_profile_itens {
+    width: 316px;
+    height: 48px;
+}
+
+.text_profile {
+    margin-top: 140px;
+}
