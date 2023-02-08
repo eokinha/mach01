@@ -8,21 +8,19 @@ function validarCpf(cpf) {
     }
 }
 
-function formataCpf(cpf) {
+function formataCpf(cpf = []) {
     let formatacaoCpf = cpf.slice(0, 3) + "." + cpf.slice(3, 6) + "." + cpf.slice(6, 9) + "-" + cpf.slice(9, 11);
     return formatacaoCpf
 }
 
-function exibeCpf(cpf) {
+function exibeMensagem(cpf) {
     if (validarCpf(cpf)) {
-        alert(formataCpf(cpf))
+        alert(`O CPF é:` + formataCpf(cpfDigitado))
 
     } else {
         alert('CPF Invalido')
     }
 }
 
-exibeCpf(cpfDigitado)
+exibeMensagem(cpfDigitado)
 
-
-// console.log(exibeCpf('07273977535'))
